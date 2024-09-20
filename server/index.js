@@ -9,7 +9,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 // Serve popup.html at the root URL
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "public", "popup.html"));
+  res.sendFile(path.join(__dirname, "..", "extension", "popup.html"));
 });
 
 app.listen(port, () => {
