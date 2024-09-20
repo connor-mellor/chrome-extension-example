@@ -1,0 +1,11 @@
+{
+  "name": "chrome-extension-example",
+  "version": "1.0.0",
+  "description": "chrome extension example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
